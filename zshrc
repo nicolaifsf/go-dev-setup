@@ -54,7 +54,6 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/Users/nicolaifsf/.rvm/gems/ruby-2.3.0/bin:/Users/nicolaifsf/.rvm/gems/ruby-2.3.0@global/bin:/Users/nicolaifsf/.rvm/rubies/ruby-2.3.0/bin:/sbin:/Users/Nicolai/.vimpkg/bin:/usr/local/bin:/usr/local/go/bin:/Users/Nicolai/gcc-cross/toolchain/bin:/opt/local/bin:/Users/Nicolai/Documents/goCode/bin:/Users/nicolaifsf/Scripts:/Users/nicolaifsf/Documents/Learn/ShellScripts:/usr/local/go/bin:/Users/Nicolai/ThirdPartyApplications:/Applications/Julia-0.3.11.app/Contents/Resources/julia/bin:~/.nimble/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nicolaifsf/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,46 +82,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="$PATH:/usr/local/go/bin"
-export GOPATH=~/Documents/Projects/goCode/
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH="$PATH:/Users/nicolaifsf/.chefdk/gem/ruby/2.1.0/bin"
-export PATH="$PATH:~/Scripts"
-export PATH="$PATH:/Users/nicolaifsf/.gem/ruby/2.3.0/bin"
-export PATH="Users/nicolaifsf/Documents/Projects/goCode/bin:$PATH"
-export PATH="/Users/nicolaifsf/Documents/Projects/goCode/bin:$PATH"
-export GOBIN=~/Documents/Projects/goCode/bin
-export EDITOR='vim'
-# eval "$(chef shell-init zsh)"
-export GOOGLEIT_API_KEY=AIzaSyBe98sovvQx19JrV8xYpRA6ieTVQh3aogU
-export GOOGLEIT_ENGINE_ID=013192562340963167494:9p-umton5ak
-# User specific aliases and functions
-#
-# export rvm_path=/home/fsj/.rvm
-
- # ruby  fsj-add
- export ruby=/home/fsj/.rvm/gems/ruby-1.9.3-p551/bin:/home/fsj/.rvm/gems/ruby-1.9.3-p551@global/bin:/home/fsj/.rvm/rubies/ruby-1.9.3-p551/bin
-#  export PATH="$ruby:$PATH"# add ruby to PATH
-
- export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
- export PATH="$PATH:~/Documents/Projects/goCode/bin/"
-
- export PATH="$PATH:/Applications/Racket\ v6.6/bin"
-
- export GEM_HOME=$HOME/.gem
- export GEM_PATH=$HOME/.gem
-# This below gets docker env working
- export BING_KEY="bee97ddc4a604517bb5cf900e0960f27"
- alias li "vi '+set ic lisp ai wm=0 |map # Ji^M^[ |1' \!*""]'"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# . /Users/nicolaifsf/Scripts/z.sh
-
-
-
-
-export NVM_DIR="/Users/nicolaifsf/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

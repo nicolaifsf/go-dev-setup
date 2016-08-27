@@ -31,5 +31,7 @@ RUN curl https://glide.sh/get | sh
 # Set the bin bash entrypoint to /go/src/
 WORKDIR /go/src/
 
+ENV GOBIN /go/bin
+
 # docker run will do bin bash
 ENTRYPOINT /bin/zsh
